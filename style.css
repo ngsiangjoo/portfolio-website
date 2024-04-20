@@ -1,15 +1,74 @@
-
-
-p {
-
-  font-family: "Barlow", sans-serif;
+body {
+  background-color: #fafafa;
 }
 
 h1 {
   font-family: "Epilogue", sans-serif;
+  font-size: 88px;
   font-weight: bold;
 }
 
+h2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 28px;
+  color: #a1a1a1;
+}
 
-/*font-family: "Epilogue", sans-serif;
-/* font-family: "Barlow", sans-serif;
+.intro {
+  font-family: "Barlow", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 60px;
+  display: flex;
+  max-width: 350px;
+}
+
+.country {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: "Epilogue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navbar {
+  background-color: #fafafa;
+}
+
+.btn {
+  background-color: #eeeeee;
+  padding: 15px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #e9f58d;
+}
+
+.hero-image {
+  max-width: 500px;
+  justify-content: end;
+}
