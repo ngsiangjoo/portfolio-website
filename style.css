@@ -10,7 +10,7 @@ h1 {
 
 h2 {
   font-family: "Barlow", sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   color: #a1a1a1;
 }
 
@@ -20,7 +20,7 @@ h2 {
   font-weight: bold;
   padding-top: 60px;
   display: flex;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .country {
@@ -69,6 +69,7 @@ a:hover {
 }
 
 .hero-image {
-  max-width: 500px;
-  justify-content: end;
+  max-width: 600px;
+  text-align: right;
+  margin: -100px;
 }
