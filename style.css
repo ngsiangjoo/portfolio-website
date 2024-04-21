@@ -1,22 +1,31 @@
+:root {
+  --primary-font: "Epilogue", sans-serif;
+  --secondary-font: "Barlow", sans-serif;
+  --primary-color: #fafafa;
+  --secondary-color: #a1a1a1;
+  --highlight-color: #e9f58d;
+}
+
 body {
-  background-color: #fafafa;
+  background-color: var(--primary-color);
 }
 
 h1 {
-  font-family: "Epilogue", sans-serif;
-  font-size: 88px;
+  font-family: var(--primary-font);
+  font-size: 72px;
   font-weight: bold;
+  margin-top: 100px;
 }
 
 h2 {
-  font-family: "Barlow", sans-serif;
-  font-size: 24px;
-  color: #a1a1a1;
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  color: var(--secondary-color);
 }
 
 .intro {
-  font-family: "Barlow", sans-serif;
-  font-size: 40px;
+  font-family: var(--secondary-font);
+  font-size: 30px;
   font-weight: bold;
   padding-top: 60px;
   display: flex;
@@ -24,13 +33,13 @@ h2 {
 }
 
 .country {
-  font-family: "Barlow", sans-serif;
+  font-family: var(--secondary-font);
   font-size: 18px;
   font-weight: bold;
 }
 
 .navbar-brand {
-  font-family: "Epilogue", sans-serif;
+  font-family: var(--primary-font);
   font-weight: bold;
   text-align: center;
   color: black;
@@ -38,14 +47,20 @@ h2 {
 
 .nav-link {
   color: black;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: lowercase;
 }
 
 .navbar {
-  background-color: #fafafa;
+  background-color: var(--primary-color);
 }
 
 .btn {
-  background-color: #eeeeee;
+  background-color: var(--primary-color);
+  border-color: black;
+  border-width: 1px;
   padding: 15px;
   margin-top: 30px;
   font-weight: bold;
@@ -65,11 +80,21 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #e9f58d;
+  color: var(--highlight-color);
 }
 
 .hero-image {
-  max-width: 600px;
+  max-width: 500px;
   text-align: right;
   margin: -100px;
+}
+
+.secondary-container {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.short-intro {
+  text-align: center;
+  font-size: 18px;
 }
