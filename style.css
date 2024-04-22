@@ -87,6 +87,7 @@ a:hover {
   max-width: 500px;
   text-align: right;
   margin: -100px;
+  border-radius: 5px;
 }
 
 .secondary-container {
@@ -97,4 +98,25 @@ a:hover {
 .short-intro {
   text-align: center;
   font-size: 18px;
+}
+
+.content-img {
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.main-content-title {
+  margin: 30px 0;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: var(--primary-font);
+}
+
+.content-title {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
 }
