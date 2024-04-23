@@ -146,3 +146,33 @@ a:hover {
   font-family: var(--secondary-font);
   max-width: 450px;
 }
+
+.work-image {
+  max-width: 500px;
+  border-radius: 5px;
+  padding: 15px 0;
+}
+
+.work-header {
+  text-align: center;
+  font-size: 25px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  margin: 50px 30px;
+}
+
+.work-title {
+  font-size: 18px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  text-align: center;
+}
+
+.work-subtitle {
+  font-size: 15px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-top: -15px;
+}
