@@ -124,6 +124,7 @@ a:hover {
 
 .about-image {
   max-width: 500px;
+  border-radius: 5px;
 }
 
 .about-header {
