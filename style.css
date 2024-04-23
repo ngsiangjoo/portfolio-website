@@ -97,7 +97,8 @@ a:hover {
 
 .short-intro {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
+  font-family: var(--secondary-font);
 }
 
 .content-img {
@@ -119,4 +120,28 @@ a:hover {
   font-weight: bold;
   margin-top: 20px;
   font-size: 16px;
+}
+
+.about-image {
+  max-width: 500px;
+}
+
+.about-header {
+  font-family: var(--primary-font);
+  font-size: 40px;
+}
+
+.highlight {
+  color: var(--secondary-color);
+}
+
+.about-subheader {
+  font-size: 18px;
+}
+
+.about-content {
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  max-width: 450px;
 }
