@@ -176,3 +176,22 @@ a:hover {
   text-align: center;
   margin-top: -15px;
 }
+
+.contact-header {
+  font-size: 40px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+
+.contact-detail {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content-title {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 600;
+}
