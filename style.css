@@ -30,6 +30,7 @@ h2 {
   padding-top: 60px;
   display: flex;
   max-width: 400px;
+  margin-bottom: 30px;
 }
 
 .country {
@@ -62,7 +63,6 @@ h2 {
   border-color: black;
   border-width: 1px;
   padding: 15px;
-  margin-top: 30px;
   font-weight: bold;
   font-size: 15px;
   border-radius: 5px;
@@ -210,11 +210,14 @@ a:hover {
   text-align: center;
 }
 
-.footer-box {
-  background-color: var(--highlight-color);
-  padding: 30px 50px;
-  margin: 50px 0;
+.footer-container {
+  background-color: var(--primary-color);
   border-radius: 5px;
+  padding: 20px 150px;
+  margin: 50px 0;
+}
+
+.footer-title {
   font-family: var(--primary-font);
   font-weight: bold;
   font-size: 24px;
